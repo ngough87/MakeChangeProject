@@ -30,15 +30,20 @@ public class CashRegister {
 			
 			//Currency returned to the customer
 			
-			double makeChange = itemPrice - moneyGiven;
+			//double makeChange = itemPrice - moneyGiven;
 			
-			System.out.println("Amount to be returned to customer " + makeChange);
 			
+			//System.out.println("Amount to be returned to customer " + makeChange);
+			
+			int difference = (int)(moneyGiven * 100);
+			
+			int dollDolla = (int)(difference /100);
+			System.out.println("Amount returned in dollars " + dollaDolla);
 			
 			//User Story #3 Display an appropriate message if the customer 
 			//provided too little money or the exact amount.
 		
-			
+	
 		
 			
 			
